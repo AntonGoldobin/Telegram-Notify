@@ -19,5 +19,5 @@ RUN npm run build
 #RUN npm run migration:up
 
 # Start the server using the production build
-CMD node build/main.js
+CMD node dist/main.js
 #CMD [ "node", "dist/main.js" ]
